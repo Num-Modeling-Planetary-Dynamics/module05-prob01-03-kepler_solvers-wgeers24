@@ -14,6 +14,12 @@ def f(E):
 def fP(E):
     return 1 - e * np.cos(E)
 
+def fP2(E):
+    return e*np.sin(E)
+
+def fP3(E):
+    return e*np.cos(E)
+
 
 while True:
     Enew = E[-1] - ((f(E)[-1]) / (fP(E)[-1]))

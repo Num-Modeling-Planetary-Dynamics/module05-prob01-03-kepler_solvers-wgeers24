@@ -12,3 +12,14 @@ I then ran code using an equation for the new value of E based on the equation f
 I used a while true loop to continue the process until the difference between the last two values was at the desired accuracy of 0.000001 degrees.
 The output was saved as a csv file in my data folder. 
 
+
+Problem 2:
+Using a similar strategy to problem 1, i defined the derivative of the function f.
+I defined E new using the equation given, running the program in a while loop until the accuracy is met.
+The output was saved as a csv file.
+
+Problem 3:
+This problem required a lot more function definitons than the previous 2.
+I defined the 3 derivatives of the function f using fP1, fP2, and fP3.
+The program outputs Enew to the desired accuracy using the last value of E (using E[-1] and D3(E[-1])).
+
